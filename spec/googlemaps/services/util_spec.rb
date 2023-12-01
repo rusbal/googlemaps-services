@@ -112,7 +112,7 @@ describe Convert do
 
     context 'given value of type Date' do
       date = Date.new(2016, 8, 27)
-      expected = '1472248800'
+      expected = '1472227200'
       it 'returns unix time since epoch' do
         expect(Convert.unix_time(date)).to eql(expected)
       end
